@@ -5,5 +5,5 @@ const showNotes = require("./showNotes");
 const authenticateUser = require("./authenticateUser")
 
 module.exports = {
-  showNotes,editNote,postNote,generateToken,authenticateUserser
+  showNotes,editNote,postNote,generateToken,authenticateUser
 }
