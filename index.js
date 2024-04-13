@@ -1,8 +1,6 @@
 const express = require("express");
 const ErrorHandler = require("./ErrorHandler");
-const {showNotes,postNote,editNote} = require("./utilities");
-const generateToken = require("./utilities/generateToken");
-const authenticateUser = require("./utilities/authenticateUser");
+const {showNotes,postNote,editNote,generateToken,authenticateUser} = require("./utilities");
 require('dotenv').config();
 
 const app = express();
